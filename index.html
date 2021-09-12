@@ -7,26 +7,40 @@
   <meta name="description" content="Download ISO">
   <meta name="author" content="son">
   <style>
-    header 
-    {
-    padding: 30px;
+    header {
+    background-color: Gray;
+    padding: 1px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+    nav { 
+    padding: 10px;
     text-align: center;
     font-size: 35px;
 }
   </style>
 </head>
 <body>
-  <h1 style="text-align:center;">Download ISO</h1>
-  <a style="text-decoration: none" href="https://sonmypq.github.io">Home</a>
-  <header>
-  <p><a style="text-decoration: none" href="windows.html">Windows</a> </p>
-  <a style="text-decoration: none" href="office.html">Office</a></p>
-  </header>
+ <header>
+  <h1>Download ISO</h1>
+   </header>
+  <hr>
+  <a style="text-decoration: none; color:black" href="https://sonmypq.github.io">Home</a>
+ <nav>
+  <a style="text-decoration: none" href="windows.html">Windows</a>
+  <a> <img src="w.svg" alt="Windows" style="width:35px;height:35px;"> </a>
+ </nav>
+  <nav>
+  <a style="text-decoration: none; color:Red" href="office.html">Office</a>
+  <a> <img src="o.svg" alt="Office" style="width:35px;height:35px;"> </a>
+  </nav>
   <p> Thời gian:</p>
   <p id="demo"></p>
   <script>
   const d = new Date();
   document.getElementById("demo").innerHTML = d;
   </script>
+  <hr>
 </body>
 </html>
